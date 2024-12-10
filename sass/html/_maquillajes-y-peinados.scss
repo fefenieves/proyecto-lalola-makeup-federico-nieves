@@ -1,0 +1,120 @@
+/* estilos página maquillajes */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mkp{
+    text-align: center;
+    
+}
+
+.mis-servicios{
+    text-align: center;
+    h1{
+    color: $color-uno;
+    padding: 1rem;
+    }
+    h3{
+    padding: 0.5rem;
+    }
+}
+
+    
+.boton-mkp{
+    background-color: $color-uno;
+    font-weight: bold;
+    margin: 30px;
+    display: inline-block;
+    padding: 10px;
+    border-width: 10px;
+    border-color: black;
+    border-style: hidden;
+    border-radius: 15px;
+    a{
+        text-decoration: none;
+        color: $color-dos;
+    }
+}
+
+/* no supe crear la ruta para estas clases */
+
+.pink-hover:hover{
+    background-color: $color-uno;
+}
+.accordion-button:not(.collapsed) {
+    background-color: $color-uno;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.accordion-button {
+    font-weight: 500;
+    background-color: $color-tres;
+}
+
+/*estilo carousel swiper - valido para otras paginas también*/
+html, body{
+    position: relative;
+    height: 100%;
+    body{
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        .swiper{
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        .swiper-slide img {
+            display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+    }
+}
+

@@ -1,0 +1,123 @@
+//import variables
+@import "../utilidades/variable";
+
+//import mixin
+@import "../utilidades/mixin";
+
+//estilo desktop
+@media screen and (min-width: 1024px) {
+    header{
+        img{
+            width: 10%;
+        }
+    }
+    main{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        .home-lado {
+            display: flex;
+            justify-content: space-between; // Distribuye los elementos a ambos lados
+            align-items: center;
+            width: 100%;
+            max-width: 1200px; // Ajusta el tamaño máximo del contenedor
+            margin: 0 auto;
+            background-color: $color-dos
+        }
+        .imagen{
+            @include flex-center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            max-width: 40%;
+            img{
+                width: 60%;
+                border-radius: 8px;
+                margin-bottom: 15px;
+            }
+        }
+        .textos{
+            text-align: center;
+            justify-content: center;
+            max-width: 40%;
+            h1{
+                padding-bottom: 10px;
+                color: $color-uno; 
+            }
+        }
+        .boton {
+            background-color: $color-uno;
+            font-weight: bold;
+            display: inline-block;
+            margin: 15px;
+            padding: 10px;
+            border-width: 10px;
+            border-color: none;
+            border-style: hidden;
+            border-radius: 15px;
+            a{
+                text-decoration: none;
+                color: $color-dos;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+/*
+main{
+    @include flex-center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    .home-lado {
+        display: flex;
+        justify-content: space-between; // Distribuye los elementos a ambos lados
+        align-items: center;
+        width: 100%;
+        max-width: 1200px; // Ajusta el tamaño máximo del contenedor
+        margin: 0 auto;
+    }
+    .imagen{
+        @include flex-center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-width: 75%;
+        img{
+            width: 70%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+    }
+    .textos{
+        text-align: center;
+        justify-content: center;
+        background-color: $color-tres;
+        max-width: 40%;
+        h1{
+            padding-bottom: 10px;
+            color: $color-uno; 
+        }
+    }
+    .boton {
+        background-color: $color-uno;
+        font-weight: bold;
+        display: inline-block;
+        margin: 15px;
+        padding: 10px;
+        border-width: 10px;
+        border-color: none;
+        border-style: hidden;
+        border-radius: 15px;
+        a{
+            text-decoration: none;
+            color: $color-dos;
+        }
+    }
+}
+*/

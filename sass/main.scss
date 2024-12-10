@@ -1,0 +1,18 @@
+// import reset gral
+@import"html/_reset";
+
+// import home page (1)
+@import "html/home";
+
+// import pag maquillajes y page peinados (2 y 3)
+@import "html/maquillajes-y-peinados";
+
+// import page cursos (4)
+@import "html/cursos";
+
+// import page contactos (5)
+@import "html/contactos";
+
+@import "utilidades/_mq";
+
+

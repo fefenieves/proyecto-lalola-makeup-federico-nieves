@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos generales*/
+body {
+  font-family: "roboto", sans-serif;
+}
+
+/* mobile first */
+/* estilos inicio */
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+header nav div {
+  background-color: black;
+}
+header nav ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+header img {
+  width: 35%;
+}
+header .nav-link {
+  color: whitesmoke;
+}
+header .aria-current {
+  color: whitesmoke;
+}
+header .dropdown-menu {
+  background-color: black;
+}
+header .dropdown-item {
+  color: whitesmoke;
+}
+header .menu {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FD93E8;
+}
+footer p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+footer nav ul li img {
+  width: 40px;
+  margin-top: 10px;
+}
+
+/* estilos página maquillajes */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+main .imagen {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main .imagen img {
+  width: 70%;
+}
+main .textos {
+  text-align: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+main .textos h1 {
+  padding-bottom: 10px;
+  color: #FD93E8;
+}
+main .boton {
+  background-color: #FD93E8;
+  font-weight: bold;
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  border-width: 10px;
+  border-color: none;
+  border-style: hidden;
+  border-radius: 15px;
+}
+main .boton a {
+  text-decoration: none;
+  color: black;
+}
+
+.mkp {
+  text-align: center;
+}
+
+.mis-servicios {
+  text-align: center;
+}
+.mis-servicios h1 {
+  color: #FD93E8;
+  padding: 1rem;
+}
+.mis-servicios h3 {
+  padding: 0.5rem;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 1rem;
+  column-gap: 1rem;
+}
+.contenedor div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boton-mkp {
+  background-color: #FD93E8;
+  font-weight: bold;
+  margin: 30px;
+  display: inline-block;
+  padding: 10px;
+  border-width: 10px;
+  border-color: black;
+  border-style: hidden;
+  border-radius: 15px;
+}
+.boton-mkp a {
+  text-decoration: none;
+  color: black;
+}
+
+/* no supe crear la ruta para estas clases */
+.pink-hover:hover {
+  background-color: #FD93E8;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #FD93E8;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.accordion-button {
+  font-weight: 500;
+  background-color: whitesmoke;
+}
+
+/* estilos página contactos */
+body .contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .contacto nav {
+  list-style: none;
+}
+body .contacto ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+body .contacto img {
+  width: 70px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+main form {
+  background-color: #FD93E8;
+  padding: 20px;
+  margin: 0px;
+  box-shadow: 0px 2px 5px black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  flex-wrap: wrap;
+}
+main form .form-grp {
+  margin-bottom: 20px;
+}
+main form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+main form input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+main form textarea {
+  resize: vertical;
+  width: 100%;
+  border-radius: 5px;
+}
+main form button {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=css.main.css.map */
