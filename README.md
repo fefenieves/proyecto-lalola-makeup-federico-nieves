@@ -4,5 +4,4 @@ Comentários para el profesor:
 - Conversión de CSS a SASS: Lo tengo casi todo hecho, algunas clases o etiquetes no supe como juntarlas en un Nesting, vengo solucionando de a poco, agregué unos comentarios. Para la entrega final ya lo tendré todo resuelto, sin falta.
 - Como no me gustaban los carouseles de Boostrap, busqué y agregué uno de otra biblioteca.
 - Media query, es muy poco lo que quise modificar.
-- Algunas fotos están subidas repetidas por que estoy esperando que la "clienta" me envíe mas fotos.
-  
+- A las fotos les di la misma altura a todas, sin embargo, hay alguna que se reflejan con una altura diferente. No supe como arreglarlo.
